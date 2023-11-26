@@ -54,7 +54,7 @@ function draw() {
     bub.enlighten(mouseX, mouseY);
   }
 
-  if(bubbles.length > 50){
+  if(bubbles.length > 10){
     bubbles.splice(0, 1);
   }
 }
